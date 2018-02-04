@@ -1,0 +1,112 @@
+*{margin: 0;padding: 0}
+html,body{height: 100%}
+#starter{
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid #8470FF;
+	border-radius: 15px;
+	background-color: white;
+	z-index: 10;
+}
+
+#counter{
+	width: 180px;
+	height: 100px;
+	position: absolute;
+	left:50%;
+	top:40%;
+	transform: translate(-50%, -50%);
+	display: none;
+	border:5px solid black;
+	border-radius: 5px;
+	outline:none;
+	background-color: white;
+	z-index: 10;
+}
+
+#counter .time{
+	line-height: 100px;
+	text-align: center;
+	overflow: hidden;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'SimHei';
+}
+
+.btn{
+	background-color: #8470FF;
+}
+
+header{
+	width:100%;
+	height: 100px;
+	position: relative;
+}
+
+.choose{
+	width: 100px;
+	height: 60px;
+	outline:none;
+	color:white;
+	cursor:pointer;
+	border:none;
+	border-radius: 5px;
+}
+
+#close{
+	margin-top: 20px;
+}
+
+.content{
+	height: 80%;
+	display: flex;
+	display: -webkit-flex; 
+	display: -moz-flex;
+}
+
+.left{
+	width: 200px;
+	background-color: blue;
+}
+
+.right{
+	flex:1;
+	position: relative;
+	background-color: orange;
+}
+
+#myCanvas{
+	position: absolute;
+	z-index: 8;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#call{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 5%;
+	top:50%;
+	margin-top: -25px; 
+	border-radius: 15px;
+	border:none;
+	outline:none;
+	color:white;
+	cursor:pointer;
+}
+
+footer{
+	height: 5%;
+	background-color: green;
+}
